@@ -107,5 +107,17 @@ body {
     top: 0;
     left: 20px;
     width: calc(100% - 40px);
-    /* opacity: 0; */
+    padding: 10px 10px 10px 150px;
+    opacity: 0;
+    transform: translateY(0%);
+    transition: transform 0.3s ease-in, opacity 0.3 ease-in;
+}
+
+.music-info h4 {
+    margin: 0;
+}
+
+.music-container.play .music-info{
+    opacity: 1;
+    transform: translateY(-100%);
 }
