@@ -61,7 +61,7 @@ body {
 }
 
 .music-container.play .img-container img {
-    animation-play-state: running;
+    /* animation-play-state: running; */
 }
 
 
@@ -120,4 +120,13 @@ body {
 .music-container.play .music-info{
     opacity: 1;
     transform: translateY(-100%);
+}
+
+.progress-containter {
+    background: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px 0;
+    height: 4px;
+    width: 100px;
 }
